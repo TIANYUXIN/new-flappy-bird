@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>flappy bird</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<audio src="./video/002.mp3" id="audio" controls="true" loop="true" autoplay="true"></audio>
+	<img src="img/pipe.png" alt="" id="pipe" style="display:none">
+	<img src="img/bird.png" alt="" id="bird" style="display:none">
+	<canvas id="canvas" width="320" height="568"></canvas>
+	<div id="begin">
+		<div id="describe">像素鸟</div>
+		<div id="birdbegin">开始游戏</div>
+	</div>
+	<div id="end">
+		<div id="describe">飞行失败</div>
+		<a href="javascript:location.reload();"><div id="birdend">重新开始</div></a>
+	</div>
+</body>
+</html>
